@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autotap",
+  "version": "${version}",
+  "name": "AutoTap",
+  "description": "Automatic W-Tap and S-Tap for PvP. Toggle with R key.",
+  "authors": ["AutoTap"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autotap.AutoTapMod"
+    ]
+  },
+  "mixins": [
+    "autotap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
